@@ -44,6 +44,11 @@
           </li>
         </ul>
       </address>
+      <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+        <svg width="32" height="22" stroke="currentColor">
+          <use href="./images/icons.svg#hamburger"></use>
+        </svg>
+      </button>
     </div>
   </header>
 
@@ -362,30 +367,30 @@
         <div class="footer-icon-container">
           <p class="footer-title">Social media</p>
 
-          <ul class="footer-icon-list list">
+          <ul class="social-icon-list list">
             <li class="icon-list-item list">
-              <a href="" class="footer-list-link link">
+              <a href="" class="social-list-link link">
                 <svg class="link-icon" width="24" height="24">
                   <use href="./images/icons.svg#instagram"></use>
                 </svg>
               </a>
             </li>
             <li class="icon-list-item list">
-              <a href="" class="footer-list-link link">
+              <a href="" class="social-list-link link">
                 <svg class="link-icon" width="24" height="24">
                   <use href="./images/icons.svg#facebook"></use>
                 </svg>
               </a>
             </li>
             <li class="icon-list-item list">
-              <a href="" class="footer-list-link link">
+              <a href="" class="social-list-link link">
                 <svg class="link-icon" width="24" height="24">
                   <use href="./images/icons.svg#twitter"></use>
                 </svg>
               </a>
             </li>
             <li class="icon-list-item list">
-              <a href="" class="footer-list-link link">
+              <a href="" class="social-list-link link">
                 <svg class="link-icon" width="24" height="24">
                   <use href="./images/icons.svg#linkedin"></use>
                 </svg>
@@ -476,7 +481,71 @@
         </form>
     </div>
   </div>
+  <!--Mobile menu-->
+  <div class="js-menu-container">
+    <button class="menu-toggle js-close-menu">
+      <svg width="8" height="8">
+        <use href="./images/icons.svg#xicon"></use>
+      </svg>
+    </button>
+    <div class="menu-container">
+      <ul class="menu-link-list list">
+        <li class="menu-link-item">
+          <a class="menu-link active link" href="./index.html">Studio</a>
+        </li>
+        <li class="menu-link-item">
+          <a class="menu-link link" href="./portfolio.html">Portfolio</a>
+        </li>
+        <li class="menu-link-item">
+          <a class="menu-link link" href="">Contacts</a>
+        </li>
+      </ul>
+      <div class="menu-contacts">
+        <address class="menu-adress">
+          <ul class="menu-list list">
+            <li class="menu-adress-item phone">
+              <a class="menu-adress-link link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+            </li>
+            <li class="menu-adress-item email">
+              <a class="menu-adress-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+          </ul>
+        </address>
+        <ul class="social-icon-list list">
+          <li class="icon-list-item list">
+            <a href="" class="social-list-link link">
+              <svg class="link-icon" width="24" height="24">
+                <use href="./images/icons.svg#instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="icon-list-item list">
+            <a href="" class="social-list-link link">
+              <svg class="link-icon" width="24" height="24">
+                <use href="./images/icons.svg#facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="icon-list-item list">
+            <a href="" class="social-list-link link">
+              <svg class="link-icon" width="24" height="24">
+                <use href="./images/icons.svg#twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="icon-list-item list">
+            <a href="" class="social-list-link link">
+              <svg class="link-icon" width="24" height="24">
+                <use href="./images/icons.svg#linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
   <script src="./js/modal.js"></script>
+  <script src="./js/mobile-menu.js"></script>
 </body>
 
 </html>
