@@ -84,7 +84,7 @@ img {
 }
 
 .list-text {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -450,6 +450,7 @@ img {
 */
 .doing-section {
     display: none;
+
 }
 
 @media only screen and (min-width: 1158px) {
@@ -484,8 +485,8 @@ img {
 */
 .team-section {
     background: #F4F4FD;
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
 
 .team-section-title {
@@ -598,8 +599,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
-    gap: 24px 0;
+    gap: 72px 16px;
 }
 
 .customer-item {
@@ -646,7 +646,7 @@ img {
     }
 
     .customer-item {
-        max-width: calc((100% - 32px) / 3);
+        max-width: calc((100% - 48px) / 3);
     }
 }
 
